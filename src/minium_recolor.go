@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //Bài 2379
 //https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/?envType=daily-question&envId=2025-03-08
 
@@ -21,8 +19,4 @@ func minimumRecolors(blocks string, k int) int {
     }
     
     return ans
-}
-
-func main() {
-	fmt.Println(minimumRecolors("WBBWWBBWBW", 7))
 }
