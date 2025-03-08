@@ -1,7 +1,7 @@
 package main
 
 // https://leetcode.com/problems/valid-parentheses/
-// Bài 2
+// Bài 20
 func isValid(s string) bool {
     stack := []rune{}
     brackets := map[rune]rune{')': '(', '}': '{', ']': '['}
